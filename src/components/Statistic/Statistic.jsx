@@ -9,7 +9,6 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <h2>Statistics</h2>
       <p>Good: {good}</p>
       <p>Neutral:{neutral}</p>
       <p>Bad:{bad}</p>
@@ -19,7 +18,7 @@ export const Statistics = ({
   );
 };
 
-Statistics.protoTypes = {
+Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,

@@ -13,10 +13,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   );
 };
 
-FeedbackOptions.protoTypes = {
+FeedbackOptions.propTypes = {
   options: PropTypes.string.isRequired,
   onLeaveFeedback: PropTypes.string.isRequired,
-  bads: PropTypes.string.isRequired,
-  goods: PropTypes.string.isRequired,
-  neutrals: PropTypes.string.isRequired,
 };
